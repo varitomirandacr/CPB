@@ -1,0 +1,6 @@
+@CPB.Backend_HostAddress = http://localhost:5210
+
+GET {{CPB.Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
